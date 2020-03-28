@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-color: black;
+}
+img{
+  height: 200px;
+}
+
+#main img{
+  width: 20%;
+
+}
+#boardNum, #betNum, #betColor, .colors, .table button{
+  height: 50px;
+  width: 10%;
+  background-color: lightgreen;
+  border-radius: 10px;
+  border: 1px solid black;
+
+}
+
+.table{
+  background-image: url(img/table.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
+  width: 80%;
+  float: right;
+}
+h1, h2, h3, h4, span{
+  color: white;
+}
